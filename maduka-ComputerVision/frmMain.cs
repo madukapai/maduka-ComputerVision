@@ -21,11 +21,11 @@ namespace maduka_ComputerVision
 {
     public partial class frmMain : Form
     {
-        string CompoterVisionApiRootUrl = "https://westus.api.cognitive.microsoft.com/vision/v1.0";
-        string CompoterVisionApiKey = "8c55cdc528884cd48e4228b42510e90c";
+        string CompoterVisionApiRootUrl = "[在這裡放上ComputerVision的服務根目錄]" // EX:"https://westus.api.cognitive.microsoft.com/vision/v1.0";
+        string CompoterVisionApiKey = "[在這裡放上ComputerVisionKey]";
 
         string TranslaterUrl = "https://api.microsofttranslator.com/V2/Http.svc/Translate";
-        string TranslaterApiKey = "abeb23ed7fea4840a257de1076970a77";
+        string TranslaterApiKey = "[在這裡放上TranslaterApiKey]";
 
         VisionServiceClient visionClient;
         FacePanelUtility objFace;
